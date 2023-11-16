@@ -209,23 +209,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@edifice-wisemapping/core-js@npm:^0.6.3":
-  version: 0.6.3
-  resolution: "@edifice-wisemapping/core-js@npm:0.6.3"
-  checksum: 998082fc2381507a5a07d272afda13ad5d8c9aca0ea3a93212eb4bc6ffbeafa63ec79d36200f28730eb3321bfd55ee9effa9ca2a266d82614c6dfab75a226cdd
+"@edifice-wisemapping/core-js@npm:^0.6.6":
+  version: 0.6.6
+  resolution: "@edifice-wisemapping/core-js@npm:0.6.6"
+  checksum: 5750d04b2412e2d2d4e54e842ba25b7680168856eaa621d8334cfae3598916eaad526c236009a1d3ebbcd43cc23853717be4969739f2dca2b7d995feda2811f4
   languageName: node
   linkType: hard
 
-"@edifice-wisemapping/editor@npm:^0.7.3":
-  version: 0.7.3
-  resolution: "@edifice-wisemapping/editor@npm:0.7.3"
+"@edifice-wisemapping/editor@npm:^0.7.8":
+  version: 0.7.8
+  resolution: "@edifice-wisemapping/editor@npm:0.7.8"
   dependencies:
-    "@edifice-wisemapping/mindplot": "npm:^5.2.3"
+    "@edifice-wisemapping/mindplot": "npm:^5.2.6"
     "@emotion/react": "npm:^11.10.5"
     "@emotion/styled": "npm:^11.10.5"
     "@mui/icons-material": "npm:^5.9.3"
     "@mui/material": "npm:^5.10.11"
-    emoji-picker-react: "npm:^4.4.7"
+    emoji-picker-react: "npm:4.5.2"
     react-color: "npm:^2.19.3"
     react-intl: "npm:^6.2.1"
     react-loader-spinner: "npm:^5.3.4"
@@ -233,32 +233,32 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: ebf9122d534e7d7e02b3144d856d30452843eed58492d4380b9e0f9ee8741a77bbf38fdaefba91a94c54571735430ba6753718fd241765a6553315e9d6c86f7b
+  checksum: ccf17217c6ac8e88cb71e3b830891253f80876b1efb6caca02eef77ca6f082fc2d9775ee39a2c0516431773c28eacac61479597f6976dfe3e46b5955e15aa1fa
   languageName: node
   linkType: hard
 
-"@edifice-wisemapping/mindplot@npm:^5.2.3":
-  version: 5.2.3
-  resolution: "@edifice-wisemapping/mindplot@npm:5.2.3"
+"@edifice-wisemapping/mindplot@npm:^5.2.6":
+  version: 5.2.6
+  resolution: "@edifice-wisemapping/mindplot@npm:5.2.6"
   dependencies:
-    "@edifice-wisemapping/core-js": "npm:^0.6.3"
-    "@edifice-wisemapping/web2d": "npm:^0.7.3"
+    "@edifice-wisemapping/core-js": "npm:^0.6.6"
+    "@edifice-wisemapping/web2d": "npm:^0.7.6"
     "@types/jquery": "npm:^3.5.11"
     emoji-picker-react: "npm:^4.4.3"
     jquery: "npm:3.6.0"
     lodash: "npm:^4.17.21"
     xml-formatter: "npm:^2.6.1"
-  checksum: f3fe197ab0e3bccd8dadaf610fb1c4716f6b22e4b47b0470ecb4dfee5b4aeca4e22fb8705d6ddbcaec863cd699d240bb9dd61ff8c03f1a03e3e53b7eb25a6410
+  checksum: afb19d79c31a8531b96e824744981cffeb0b30875382a4f7d5b595cb28cd1c0d1ae1dc650d3b64339507cab2dae40f49c3016f6704190cd4e9e6a1dc9d5bcaae
   languageName: node
   linkType: hard
 
-"@edifice-wisemapping/web2d@npm:^0.7.3":
-  version: 0.7.3
-  resolution: "@edifice-wisemapping/web2d@npm:0.7.3"
+"@edifice-wisemapping/web2d@npm:^0.7.6":
+  version: 0.7.6
+  resolution: "@edifice-wisemapping/web2d@npm:0.7.6"
   peerDependencies:
-    "@edifice-wisemapping/core-js": 0.6.0-alpha.0
+    "@edifice-wisemapping/core-js": ^0.6.4
     jquery: ^3.6.0
-  checksum: dd0ddf79c926c35a7f118798307fe979b1701c21b57cc041419c52ba0a592b304b30d3dc94ad371a2270ce60fe5298d244364f6a8b20529291a6b933df34bcb8
+  checksum: 5f1c3e81624526f6d0d0257633c28b0c91bd34ffac52acea3829e6629a4d0a28ded523f41df9437c930cc5a2be4711125c91f0887caf0dffff5a00be1b2832c0
   languageName: node
   linkType: hard
 
@@ -1737,6 +1737,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "clsx@npm:1.2.1"
+  checksum: 5ded6f61f15f1fa0350e691ccec43a28b12fb8e64c8e94715f2a937bc3722d4c3ed41d6e945c971fc4dcc2a7213a43323beaf2e1c28654af63ba70c9968a8643
+  languageName: node
+  linkType: hard
+
 "clsx@npm:^2.0.0":
   version: 2.0.0
   resolution: "clsx@npm:2.0.0"
@@ -1907,7 +1914,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-picker-react@npm:^4.4.3, emoji-picker-react@npm:^4.4.7":
+"emoji-picker-react@npm:4.5.2":
+  version: 4.5.2
+  resolution: "emoji-picker-react@npm:4.5.2"
+  dependencies:
+    clsx: "npm:^1.2.1"
+  peerDependencies:
+    react: ">=16"
+  checksum: f3184025d46b8ac9233de5329061b352772f51bd50f6192bd0e6807861769093fc5be463f3e59c65164d62426729533d274c43acded5eed530d4f51180dc39fa
+  languageName: node
+  linkType: hard
+
+"emoji-picker-react@npm:^4.4.3":
   version: 4.5.15
   resolution: "emoji-picker-react@npm:4.5.15"
   peerDependencies:
@@ -4102,7 +4120,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "wisemapping-webcomponent@workspace:."
   dependencies:
-    "@edifice-wisemapping/editor": "npm:^0.7.3"
+    "@edifice-wisemapping/editor": "npm:^0.7.8"
     "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
     "@types/node": "npm:^20.9.0"
     "@types/react": "npm:^18.2.37"
