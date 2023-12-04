@@ -1383,7 +1383,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:16 || 17 || 18, @types/react@npm:^18.2.37":
+"@types/react@npm:*, @types/react@npm:16 || 17 || 18":
   version: 18.2.38
   resolution: "@types/react@npm:18.2.38"
   dependencies:
@@ -1391,6 +1391,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 9f9b9925c979e848d572dce6fff34951708127ba6b1fd4306c93fbcab74f5c6cff2b2e47d4222339eeb6c19d264e93450cb2ad6b255c73c536d0a1e2093cc98a
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.41":
+  version: 18.2.41
+  resolution: "@types/react@npm:18.2.41"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 31a498a56ad3e825ae13799355fe49042c0cdbbe6f40003f39b6b9cf847ba1669393c22ba60e97b1072cf1c002b15432082cdd17e47c948430bdc1f0864829b9
   languageName: node
   linkType: hard
 
@@ -4251,7 +4262,7 @@ __metadata:
     "@edifice-wisemapping/editor": "npm:^0.7.10"
     "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
     "@types/node": "npm:^20.9.0"
-    "@types/react": "npm:^18.2.37"
+    "@types/react": "npm:^18.2.41"
     "@types/react-dom": "npm:^18.2.15"
     "@typescript-eslint/eslint-plugin": "npm:^6.12.0"
     "@typescript-eslint/parser": "npm:^6.10.0"
