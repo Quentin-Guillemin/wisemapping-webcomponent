@@ -2201,12 +2201,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-refresh@npm:^0.4.4":
-  version: 0.4.4
-  resolution: "eslint-plugin-react-refresh@npm:0.4.4"
+"eslint-plugin-react-refresh@npm:^0.4.5":
+  version: 0.4.5
+  resolution: "eslint-plugin-react-refresh@npm:0.4.5"
   peerDependencies:
     eslint: ">=7"
-  checksum: d6c4571362ceca3c71c4f88ce60a646204da9d278e5d1b7390e5327ec23fe963fee4cb070814e1dc869d385f7ba96923f9c1889f0688029ebb0f3e8b49ca0ffb
+  checksum: f1526f55829f7eb4d9031fa082cb967f0bc578e8e2a3dfb9e5a47fc31cb0785bfa58ae717157f57241f7086a8790a88a6ec82743eaa5ca392a6b0fdb379169f8
   languageName: node
   linkType: hard
 
@@ -4314,7 +4314,7 @@ __metadata:
     eslint: "npm:^8.55.0"
     eslint-config-prettier: "npm:^9.0.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-react-refresh: "npm:^0.4.4"
+    eslint-plugin-react-refresh: "npm:^0.4.5"
     husky: "npm:^8.0.3"
     lint-staged: "npm:^15.2.0"
     prettier: "npm:^3.1.0"
